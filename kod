@@ -65,6 +65,14 @@
 		<label for="male">Muško</label>
 		<input type="radio" id="female" name="gender" value="female">
 		<label<label for="male">Žensko</label>
+<button onclick="rezervacijaGotova()">Rezerviši</button>
+
+<script>
+function rezervacijaGotova() {
+  alert("Rezervacija gotova!");
+}
+</script>
+
 		
 		
 
