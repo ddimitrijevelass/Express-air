@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h1>ExpressAir</h1>
-	<h3>Book your flight</h3>
+	<h3>Rezervisi svoj let</h3>
 	<form>
 		<label for="from">Polazni aerodrom:</label>
 		<select name="from" id="from">
