@@ -7,13 +7,13 @@
 	<h1>ExpressAir</h1>
 	<h3>Book your flight</h3>
 	<form>
-		<label for="from">Departure airport:</label>
+		<label for="from">Polazni aerodrom:</label>
 		<select name="from" id="from">
 			<option value="beograd">Beograd, Serbia</option>
 			<option value="tivat">Tivat, Montenegro</option>
 		</select>
 		<br><br>
-		<label for="to">Destination airport:</label>
+		<label for="to">Dolazni aerodrom:</label>
 		<select name="to" id="to">
 			<option value="pariz">Pariz, Francuska</option>
 			<option value="london">London, Velika Britanija</option>
@@ -23,45 +23,48 @@
 			<option value="amsterdam">Amsterdam, Holandija</option>
 		</select>
 		<br><br>
-		<label for="class">Class:</label>
+		<label for="class">Klasa:</label>
 		<input type="radio" id="economy" name="class" value="economy">
 		<label for="economy">Economy</label>
 		<input type="radio" id="business" name="class" value="business">
 		<label for="business">Business</label>
 		<br><br>
-		<label for="luggage">Luggage:</label>
-		<input type="radio" id="hand-luggage" name="luggage" value="hand-luggage">
-		<label for="hand-luggage">Hand luggage</label>
-		<input type="radio" id="suitcase" name="luggage" value="suitcase">
+		<label for="luggage">Prtljag:</label>
+		<input type="radio" id="Ručni Prtljag" name="luggage" value="hand-luggage">
+		<label for="hand-luggage">Ručni prtljag</label>
+		<input type="radio" id="Kofer" name="luggage" value="suitcase">
 		<label for="suitcase">Suitcase</label>
 		<br><br>
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email">
 		<br><br>
-		<label for="phone">Phone number:</label>
+		<label for="phone">Broj telefona:</label>
 		<input type="tel" id="phone" name="phone">
 		<br><br>
-		<label for="title">Title:</label>
+		<label for="title">Titula:</label>
 		<select name="title" id="title">
 			<option value="mr">Mr.</option>
 			<option value="ms">Ms.</option>
 			<option value="mrs">Mrs.</option>
 		</select>
 		<br><br>
-		<label for="name">Name:</label>
+		<label for="name">Ime:</label>
 		<input type="text" id="name" name="name">
 		<br><br>
-		<label for="surname">Surname:</label>
+		<label for="surname">Prezime:</label>
 		<input type="text" id="surname" name="surname">
 		<br><br>
-		<label for="passport">Passport number:</label>
+		<label for="passport">Broj pasoša:</label>
 		<input type="text" id="passport" name="passport">
 		<br><br>
-		<label for="dob">Date of birth:</label>
+		<label for="dob">Datum Rođenja:</label>
 		<input type="date" id="dob" name="dob">
 		<br><br>
-		<label for="gender">Gender:</label>
+		<label for="gender">Pol:</label>
 		<input type="radio" id="male" name="gender" value="male">
-		<label for="male">Male</label>
+		<label for="male">Muško</label>
 		<input type="radio" id="female" name="gender" value="female">
-		<label
+		<label<label for="male">Žensko</label>
+		
+		
+
