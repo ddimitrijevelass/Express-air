@@ -32,8 +32,8 @@
 		<label for="luggage">Prtljag:</label>
 		<input type="radio" id="Ručni Prtljag" name="luggage" value="hand-luggage">
 		<label for="hand-luggage">Ručni prtljag</label>
-		<input type="radio" id="Kofer" name="luggage" value="suitcase">
-		<label for="suitcase">Suitcase</label>
+		<input type="radio" id="Kofer" name="luggage" value="Kofer">
+		<label for="suitcase">Kofer</label>
 		<br><br>
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email">
